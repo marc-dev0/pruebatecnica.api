@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PruebaTecnica.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:PruebaTecnica.WebApi.Controllers.v1.UsuarioController.InsertAsync(PruebaTecnica.Application.Services.Usuarios.Commands.AddUsuarioCommand.AddUsuarioCommand)">
+            <summary>
+            Operación que permite crear una nueva Cuenta.
+            </summary>
+            <param name="AddUsuarioCommand">AddUsuarioCommand</param>
+            <returns></returns>
+        </member>
+        <member name="M:PruebaTecnica.WebApi.Controllers.v1.UsuarioController.TokenAsync(PruebaTecnica.Application.Services.Usuarios.Commands.AddTokenCommand.AddTokenCommand)">
+            <summary>
+            Operación que permite generar un TOKEN a partir de un client y secret.
+            </summary>
+            <param name="addTokenCommand">addTokenCommand</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
